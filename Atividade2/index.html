@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Alterar Texto e Cor de Fundo</title>
+  <link rel="stylesheet" href="cores.css">
+  
+</head>
+<body>
+  <h2>Alterar Texto e Cor de Fundo</h2>
+  
+  <!-- Caixa para digitar o texto -->
+  <div class="container">
+    <label for="input-text">Digite algo:</label>
+    <input type="text" id="input-text" placeholder="Escreva aqui">
+    <button id="alterar-btn">Alterar</button>
+  </div>
+  
+  <!-- Caixa de seleção para cor -->
+  <div class="container">
+    <label for="color-select">Escolha a cor de fundo:</label>
+    <select id="color-select">
+      <option value="blue">Azul</option>
+      <option value="yellow">Amarelo</option>
+      <option value="orange">Laranja</option>
+    </select>
+  </div>
+  
+  <!-- Div para exibir o texto -->
+  <div class="output" id="output-div">
+    Texto inicial da div
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
